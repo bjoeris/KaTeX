@@ -1,6 +1,8 @@
 /* eslint no-console:0 */
 /* global katex */
 
+katex = require("../../katex.js");
+
 var splitAtDelimiters = require("./splitAtDelimiters");
 
 var splitWithDelimiters = function(text, delimiters) {
